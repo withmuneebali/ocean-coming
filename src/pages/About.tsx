@@ -11,7 +11,7 @@ const About = () => {
 
       {/* Hero */}
       <HeroSection image={heroHorizon}>
-        <h1 className="heading-hero" style={{ color: "hsl(var(--gold))" }}>
+        <h1 className="heading-hero" style={{ color: "hsl(var(--royal-blue))" }}>
           About Us
         </h1>
         <div className="mt-6 gold-divider" />
@@ -45,6 +45,28 @@ const About = () => {
             <div className="gold-divider mb-10" />
             <p className="body-text max-w-2xl mx-auto">
               We believe in travel that nourishes the soul. Every journey we craft is designed to create meaningful connections with destinations, with cultures, and with oneself.
+            </p>
+          </FadeInSection>
+        </div>
+      </section>
+
+      <div className="content-max px-6">
+        <div className="gold-divider-wide" />
+      </div>
+
+      {/* Travel That Deepens the Soul */}
+      <section className="section-padding bg-background">
+        <div className="content-max text-center">
+          <FadeInSection>
+            <h2 className="heading-section mb-8" style={{ color: "hsl(var(--royal-blue))" }}>
+              <em>Travel That Deepens the Soul. Journeys That Find You</em>
+            </h2>
+            <div className="gold-divider mb-10" />
+            <p className="body-text max-w-2xl mx-auto mb-6">
+              Most people travel to see the world. We believe the best trips help you see yourself.
+            </p>
+            <p className="body-text max-w-2xl mx-auto">
+              The Ocean Within Travel is a UK based luxury travel specialist built on a simple philosophy: that a journey should do more than just fill a photo album, it should recharge your spirit. We don't just "organize holidays" — we build experiences that give you the space to breathe, the freedom to wonder, and the chance to rediscover the vast, untapped ocean within.
             </p>
           </FadeInSection>
         </div>

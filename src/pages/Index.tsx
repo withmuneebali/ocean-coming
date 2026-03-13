@@ -12,7 +12,7 @@ const Index = () => {
 
       {/* Hero */}
       <HeroSection image={heroCruise}>
-        <img src={logo} alt="The Ocean Within Travel" className="w-48 md:w-72 mx-auto mb-6 drop-shadow-lg" />
+        <h1 className="heading-hero" style={{ color: "hsl(var(--gold))" }}>The Ocean Within Travel</h1>
         <p className="font-body font-light text-lg md:text-xl tracking-widest" style={{ color: "white" }}>
           Luxury Travel Agency
         </p>
