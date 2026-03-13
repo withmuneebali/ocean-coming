@@ -13,6 +13,20 @@ const Index = () => {
       {/* Hero */}
       <HeroSection image={heroCruise}>
         <h1 className="heading-hero text-white drop-shadow-lg">The Ocean Within Travel</h1>
+        <p className="font-body font-light text-lg md:text-xl tracking-widest text-white">
+          Luxury Travel Agency
+        </p>
+        <div className="mt-8 mx-auto w-32">
+          <svg viewBox="0 0 120 20" className="w-full" fill="none">
+            <path
+              d="M0 10 Q15 0 30 10 Q45 20 60 10 Q75 0 90 10 Q105 20 120 10"
+              stroke="hsl(43, 72%, 52%)"
+              strokeWidth="1.5"
+              fill="none"
+            />
+          </svg>
+        </div>
+      </HeroSection>
 
       {/* Our Approach */}
       <section className="section-padding bg-champagne">
