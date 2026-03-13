@@ -11,7 +11,7 @@ const About = () => {
 
       {/* Hero */}
       <HeroSection image={heroHorizon}>
-        <h1 className="heading-hero" style={{ color: "hsl(var(--gold))" }}>
+        <h1 className="heading-hero" style={{ color: "hsl(var(--royal-blue))" }}>
           About Us
         </h1>
         <div className="mt-6 gold-divider" />
