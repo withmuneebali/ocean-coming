@@ -2,7 +2,8 @@ import HeroSection from "@/components/HeroSection";
 import FadeInSection from "@/components/FadeInSection";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import heroOcean from "@/assets/hero-ocean.jpg";
+import heroCruise from "@/assets/hero-cruise.jpg";
+import logo from "@/assets/logo.png";
 
 const Index = () => {
   return (
@@ -10,12 +11,10 @@ const Index = () => {
       <Header />
 
       {/* Hero */}
-      <HeroSection image={heroOcean}>
-        <h1 className="heading-hero !text-primary-foreground drop-shadow-lg mb-4" style={{ color: "hsl(var(--gold))" }}>
-          THE OCEAN WITHIN TRAVEL
-        </h1>
+      <HeroSection image={heroCruise}>
+        <img src={logo} alt="The Ocean Within Travel" className="w-48 md:w-72 mx-auto mb-6 drop-shadow-lg" />
         <p className="font-body font-light text-lg md:text-xl tracking-widest" style={{ color: "white" }}>
-          Luxury Travel Agency | Est. 2026
+          Luxury Travel Agency
         </p>
         <div className="mt-8 mx-auto w-32">
           <svg viewBox="0 0 120 20" className="w-full" fill="none">
@@ -77,7 +76,7 @@ const Index = () => {
       <section className="section-padding bg-background">
         <div className="content-max text-center">
           <FadeInSection>
-            <h2 className="heading-section mb-6">Launching 2026</h2>
+            <h2 className="heading-section mb-6">Coming Soon</h2>
             <div className="mx-auto w-16 h-[2px] mb-8" style={{ background: "hsl(var(--royal-blue))" }} />
             <p className="body-text max-w-xl mx-auto">
               Our full website is currently in development. We look forward to welcoming you soon.

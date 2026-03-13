@@ -27,8 +27,8 @@ const Header = () => {
       }`}
     >
       <div className="content-max flex items-center justify-between px-6 py-5">
-        <Link to="/" className="logo-text">
-          THE OCEAN WITHIN TRAVEL
+        <Link to="/" className="flex items-center">
+          <img src={logo} alt="The Ocean Within Travel" className="h-10 md:h-12" />
         </Link>
 
         {/* Desktop nav */}
