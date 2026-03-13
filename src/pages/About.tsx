@@ -66,7 +66,7 @@ const About = () => {
               Most people travel to see the world. We believe the best trips help you see yourself.
             </p>
             <p className="body-text max-w-2xl mx-auto">
-              The Ocean Within Travel is a UK based luxury travel specialist built on a simple philosophy: that a journey should do more than just fill a photo album, it should recharge your spirit. We don't just "organize holidays" — we build experiences that give you the space to breathe, the freedom to wonder, and the chance to rediscover the vast, untapped ocean within.
+              The Ocean Within Travel is a UK based luxury travel specialist built on a simple philosophy: that a journey should do more than just fill a photo album, it should recharge your spirit. We don't just "organize holidays" we build experiences that give you the space to breathe, the freedom to wonder, and the chance to rediscover the vast, untapped ocean within.
             </p>
           </FadeInSection>
         </div>
