@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -26,8 +27,8 @@ const Header = () => {
       }`}
     >
       <div className="content-max flex items-center justify-between px-6 py-5">
-        <Link to="/" className="logo-text">
-          THE OCEAN WITHIN TRAVEL
+        <Link to="/" className="flex items-center">
+          <img src={logo} alt="The Ocean Within Travel" className="h-10 md:h-12" />
         </Link>
 
         {/* Desktop nav */}
